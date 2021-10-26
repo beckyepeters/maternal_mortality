@@ -4,6 +4,10 @@ Becky Peters<br>
 [LinkedIn](https://www.linkedin.com/in/beckyepeters/)<br>
 October 2021
 
+## What's Inside: 
+* Facts and discussion about maternal mortality 
+* How to make Sankey diagrams with Python & Plotly
+* Mental Canvas Tour of Maternal Mortality in Select Countries
 
 ## Background & Motivation: 
 *TLDR: Lots of personal and irrelevant-to-maternal-mortality information in this section; skip to EDA section for the data portion of the project.*
@@ -14,8 +18,9 @@ I am so privileged to have been able to take this time for myself at 42. Not man
 
 I also took a bath today. I can't believe I have been able to admit to such a thing out loud. It feels so indulgent and undeserved. I have taken about six baths this calendar year. I'm not a bath person for many reasons, not the least of which being that baths feel like an incredible waste of time. (This coming from a person who will sometimes run at full speed from my car to the grocery store entrance just because I don't want to waste the time walking. I just feel like I should be doing something else). Why is this relevant to this project? Because I can't help but consider the millions of other people working so much harder than me who deserve time to themselves, time to relax, and time to feel safe. 
 
-There are so many ways to feel safe. Safe from hunger, safe from the elements, safe from indignities. You can be psychologically safe, physically safe, emotionally safe. And it occurred to me while I took this indulgent bath, while I followed a guided meditation and a gua sha face massage video *(aside: [this woman](https://www.youtube.com/watch?v=KDMI5iBYSSo&t=15s) is amazing; I highly recommend getting a 10-dollar stone and giving yourself face massage with a gua sha, it's the best)*, while I enjoyed the safety in knowing that my kids are safe today, too, while the little noises I heard were not those of approaching danger but just those of my fizzy water fizzing or a local walking down the streets of my suburban neighborhood. I am so privileged to be safe. And I wanted to dig into a dataset I've been thinking a lot about that demonstrates inequities in safety. 
+There are so many ways to feel safe. Safe from hunger, safe from the elements, safe from indignities. You can be psychologically safe, physically safe, emotionally safe. And it occurred to me while I took this indulgent bath, while I followed a guided meditation, while I enjoyed the safety in knowing that my kids are safe today, too, while the little noises I heard were not those of approaching danger but just those of my fizzy water fizzing or a neighbor taking a walk in my suburban neighborhood. I am so privileged to be safe. And I wanted to dig into a dataset I've been thinking a lot about that demonstrates inequities in safety. 
 
+## The Dataset
 I recently read an [article from The Commonwealth Fund](https://www.commonwealthfund.org/publications/2021/sep/restoring-access-maternity-care-rural-america?utm_source=linkedin&utm_medium=social&utm_campaign=Advancing+Health+Equity+TransformingCare) about maternal mortality in rural areas and was horrified to discover that fully one-third of women who die during pregnancy in New Mexico die from car crashes; yes, some are from runs to the grocery store but most are from having to drive so far to find appropriate health care. And the [CDC cites](https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm) the terrible reality that Black women are over THREE TIMES more likely to die from a pregnancy-related cause than white women in this country. 
 
 ## Exploratory Data Analysis
@@ -36,9 +41,9 @@ And those inequities actually increase with the age of the mother! The sharp inc
 Figure 3: Racial Disparities Increase with Age
 ![disparities_by_age](images/disparities-by-age-large.png)
 
-Below I'll share how I used Sankey Diagrams in Plotly to examine the causes of death for white women under 30, black women under 30, white women over 30, and black women over 30. These graphs show causes of death for the cumulative number of women described above over the 2009-2018 time frame.  
+Below, I'll share how I used Sankey Diagrams in Plotly to examine the causes of death for white women under 30, black women under 30, white women over 30, and black women over 30. These graphs show causes of death for the cumulative number of women described above over the 2009-2018 time frame.  
 
-To read in the data, I downloaded the CSV files from the [NBER page](https://www.nber.org/research/data/mortality-data-vital-statistics-nchs-multiple-cause-death-data) under the "U.S. Data Files - Death Data" section for years 2009-2018. Then, I used a simple function to clean the file as I wanted it (drop some columsn and narrow causes to 'O' section for maternal mortality) and then added those cleaned Data Frames to a master Data Frame, as follows: 
+To read in the data, I downloaded the CSV files from the [NBER page](https://www.nber.org/research/data/mortality-data-vital-statistics-nchs-multiple-cause-death-data) under the "U.S. Data Files - Death Data" section for years 2009-2018. Then, I used a simple function to clean the file as I wanted it (drop some columns and narrow causes to 'O' section for maternal mortality) and then added those cleaned Data Frames to a master Data Frame, as follows: 
 
 ```
 def clean_mort_file(file_path): 
@@ -107,7 +112,7 @@ def create_sankey_df(df):
 ```
 san, list_of_causes_all = create_sankey_df(df)
 ```
-You also have to define the nodes for Sankey in a specific way, with numerical data instead of strings. SO I encoded the labels according to the node map from the following function.
+You also have to define the nodes for Sankey in a specific way, with numerical data instead of strings. So I encoded the labels according to the node map from the following function.
 
 ```
 def set_sources_targets_nodes(san): 
