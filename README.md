@@ -1,7 +1,7 @@
-# Recognizing my Privilege of Safety, and Examining Maternal Mortality in the US
-Becky Peters
-[GitHub](https://github.com/beckyepeters)
-[LinkedIn](https://www.linkedin.com/in/beckyepeters/)
+# Recognizing my Privilege of Safety and Examining Maternal Mortality Causes in the US
+Becky Peters<br>
+[GitHub](https://github.com/beckyepeters) | 
+[LinkedIn](https://www.linkedin.com/in/beckyepeters/)<br>
 October 2021
 
 
@@ -195,6 +195,18 @@ Figure 9: Sankey Diagram for Top 5 Causes for Maternal Mortality; White Over 30
 ## Conclusions: 
 It is apparent that there are great disparities between maternal mortality according to race in this country. The lack of state-level public data makes it difficult to analyze these outcomes on a state-policy basis. 
 
-The Sankey Diagrams provide an interesting view into the discrepancies between primarily the second recorded cause of death for the different populations. At the primary record level, the reported causes are quite similar and frustratingly ambiguous.   
+The Sankey Diagrams provide an interesting view into the second recorded cause of death for the different populations. At the primary record level, the reported causes are quite similar and frustratingly ambiguous. This could be the nature of the public-facing dataset. Researchers have access to state-level, hopefully more detailed information about causes of death and most states have Maternal Mortality Review Committees, which you can read more about [here at the Guttmacher Institute site](https://www.guttmacher.org/state-policy/explore/maternal-mortality-review-committees). Although, in the highlights, you can see that "8 states, DC and New York City investigate or consider racial disparities and equity in conducting reviews." There are other problems of standardization among committees for nationwide comparisons, but states have a lot of data and power to evaluate these discrepancies. I'd encourage you to look into your state's MMRC (Maternal Mortality Review Committee) to see how your state handles this issue.    
+
+For a [Mental Canvas](https://www.mentalcanvas.com/) drawing of some of the facts I discovered during this project, please see the [YouTube Video here](https://youtu.be/XQr3Z4N549M). 
 
 ## References
+* [CDC Pregnancy Mortality Surveillance System](https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm)
+* [Restoring Access to Maternity Care in Rural America; The Commonwealth Fund](https://www.commonwealthfund.org/publications/2021/sep/restoring-access-maternity-care-rural-america?utm_source=linkedin&utm_medium=social&utm_campaign=Advancing+Health+Equity+TransformingCare)
+* [National Bureau of Economic Research's compilation of multiple mortality datasets from the US Vital Statistics records](https://www.nber.org/research/data/mortality-data-vital-statistics-nchs-multiple-cause-death-data)
+[ICD-10 (2016 Revision)](https://icd.who.int/browse10/2016/en)
+* [Maternal Mortality Review Committees; Guttmacher Institute](https://www.guttmacher.org/state-policy/explore/maternal-mortality-review-committees)
+* [Maternal Mortality, World Health Organization](https://www.who.int/news-room/fact-sheets/detail/maternal-mortality)
+* [Which States Have the Worst Maternal Mortality? USA Today](https://www.who.int/news-room/fact-sheets/detail/maternal-mortality)
+* [U.S Has the Worst Rate of Maternal Deaths in the Developed World, NPR & Propublica](https://www.npr.org/2017/05/12/528098789/u-s-has-the-worst-rate-of-maternal-deaths-in-the-developed-world)
+* [New Mexico Maternal Mortality Review Presentation, NMPC](http://nmperinatalcollaborative.com/wp-content/uploads/2021/01/NMPC-2020-MMRC-Presentation.pdf)
+* [Racial Disparities in Maternal and Infant Health: An Overview; Kaiser Family Foundation](https://www.kff.org/report-section/racial-disparities-in-maternal-and-infant-health-an-overview-issue-brief/)
