@@ -12,11 +12,9 @@ October 2021
 ## Background & Motivation: 
 *TLDR: Lots of personal and irrelevant-to-maternal-mortality information in this section; skip to EDA section for the data portion of the project.*
 
-I have been "unemployed" for just over a year. I put that in quotes because I still have jobs, just not paid ones. I am a wife of 1 and a mother of 2, so I keep myself busy. I also completed the Galvanize Data Science Bootcamp (a fabulous experience for this career-shifter) which, like my children, secured more than a few hours of my attention each week. In short, I have obligations but no self-earned income. 
+I have been “unemployed” for just over a year. I put that in quotes because I still have jobs, just not paid ones. I am a wife of 1 and a mother of 2, so I keep myself busy. I also completed the Galvanize Data Science Bootcamp (a fabulous experience for this career-shifter) which, like my children, secured more than a few hours of my attention each week. In short, I have obligations but no self-earned income. I’m currently job searching, and am committed to keeping my skills strong with interesting inquiries, like the one in this post.
 
-I am so privileged to have been able to take this time for myself at 42. Not many people get this luxury. And how I've spent my time has been interesting to me, as I sincerely wonder how the reader would spend their time given the same opportunity. In any event, I live a beautiful life and I am grateful for it. 
-
-I also took a bath today. I can't believe I have been able to admit to such a thing out loud. It feels so indulgent and undeserved. I have taken about six baths this calendar year. I'm not a bath person for many reasons, not the least of which being that baths feel like an incredible waste of time. (This coming from a person who will sometimes run at full speed from my car to the grocery store entrance just because I don't want to waste the time walking. I just feel like I should be doing something else). Why is this relevant to this project? Because I can't help but consider the millions of other people working so much harder than me who deserve time to themselves, time to relax, and time to feel safe. 
+I also took a bath the other day. I can’t believe I’m actually admitting to such a thing out loud. It feels so indulgent and undeserved. I’m not a bath person for many reasons, not the least of which being that baths feel like an incredible waste of time. (This coming from a person who will sometimes run at full speed from my car to the grocery store entrance just because I don’t want to waste the time walking. I just feel like I should be doing something else.) Why is this relevant to this project? Because I can’t help but consider the millions of other people working so much harder than me who deserve time to themselves, time to relax, and time to feel safe. 
 
 There are so many ways to feel safe. Safe from hunger, safe from the elements, safe from indignities. You can be psychologically safe, physically safe, emotionally safe. And it occurred to me while I took this indulgent bath, while I followed a guided meditation, while I enjoyed the safety in knowing that my kids are safe today, too, while the little noises I heard were not those of approaching danger but just those of my fizzy water fizzing or a neighbor taking a walk in my suburban neighborhood. I am so privileged to be safe. And I wanted to dig into a dataset I've been thinking a lot about that demonstrates inequities in safety. 
 
@@ -205,9 +203,10 @@ The Sankey Diagrams provide an interesting view into the second recorded cause o
 For a [Mental Canvas](https://www.mentalcanvas.com/) drawing of some of the facts I discovered during this project, please see the [YouTube Video here](https://youtu.be/XQr3Z4N549M). 
 
 ## References
+* CODEBOOK: [Mortality Multiple Cause-of-Death Public Use Record](https://data.nber.org/mortality/2018/Multiple_Cause_Record_Documentation_2018-508.pdf)
+* THE DATA: [National Bureau of Economic Research's compilation of multiple mortality datasets from the US Vital Statistics records](https://www.nber.org/research/data/mortality-data-vital-statistics-nchs-multiple-cause-death-data)
 * [CDC Pregnancy Mortality Surveillance System](https://www.cdc.gov/reproductivehealth/maternal-mortality/pregnancy-mortality-surveillance-system.htm)
 * [Restoring Access to Maternity Care in Rural America; The Commonwealth Fund](https://www.commonwealthfund.org/publications/2021/sep/restoring-access-maternity-care-rural-america?utm_source=linkedin&utm_medium=social&utm_campaign=Advancing+Health+Equity+TransformingCare)
-* [National Bureau of Economic Research's compilation of multiple mortality datasets from the US Vital Statistics records](https://www.nber.org/research/data/mortality-data-vital-statistics-nchs-multiple-cause-death-data)
 [ICD-10 (2016 Revision)](https://icd.who.int/browse10/2016/en)
 * [Maternal Mortality Review Committees; Guttmacher Institute](https://www.guttmacher.org/state-policy/explore/maternal-mortality-review-committees)
 * [Maternal Mortality, World Health Organization](https://www.who.int/news-room/fact-sheets/detail/maternal-mortality)
